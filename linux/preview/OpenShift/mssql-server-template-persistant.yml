@@ -19,7 +19,6 @@ metadata:
     openshift.io/documentation-url: 'https://github.com/Microsoft/mssql-docker.git'
     tags: 'microsoft,sql-server,databse'
   name: mssql-server-persistent
-  namespace: openshift
 objects:
   - apiVersion: image.openshift.io/v1
     kind: ImageStream
